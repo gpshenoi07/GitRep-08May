@@ -1,0 +1,24 @@
+this file will be having completed commands of git.
+new repo-git init
+checkout - git clone "path to repo"
+add file-git add filename and git add *
+commit - git commit -m "commit msg"
+push-  git push origin master
+status- git status
+remote server - git remote add origin<server>
+branch create- git checkout -b<branch name>
+switchbranch- git checkout branch name
+onebranch to another- git checkout<branch name>
+list all branches-git barnch
+update from remote repo- git pull
+mvn archetype:generate -DgroupId=com.wipro.topgear -DartifactId=basicMaven -DarchetypeArtifactId=
+maven-archetype-quickstart -DinteractiveMode=false
+mvn archetype:generate -DgroupId=com.wipro.topgear -DartifactId=basicMaven -DarchetypeArtifactId=
+maven-archetype-quickstart -DinteractiveMode=false
+
+HARD RESET
+git add *
+git commit -m "sec file is modified"
+git reset --hard HEAD~
+
+soft reset git reset HEAD~
